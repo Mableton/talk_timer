@@ -1,11 +1,11 @@
 # Vorlage für die Einreichung im Flipper Apps Catalog.
 # Zielpfad im Catalog-Repo: applications/Tools/talk_timer/manifest.yml
-# commit_sha vor dem Einreichen auf den einzureichenden Commit setzen (40 Zeichen).
+# commit_sha = eingereichter Commit (Catalog-PR #1241). Bei neuen Versionen anpassen.
 sourcecode:
   type: git
   location:
     origin: https://github.com/Mableton/talk_timer.git
-    commit_sha: 0000000000000000000000000000000000000000
+    commit_sha: 346a4200e0553ba7a19104fa4beb9aecf59ac5e9
 description: "@.catalog/README.md"
 changelog: "@.catalog/CHANGELOG.md"
 screenshots:

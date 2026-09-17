@@ -172,6 +172,12 @@ images/                eigene 1-Bit-Icons
   Sperre, deshalb trat das in zoom_remote nie auf.)
 
 ## Stand
+- 2026-09-17: VERÖFFENTLICHT (jeweils mit OK des Nutzers): Repo
+  https://github.com/Mableton/talk_timer öffentlich, Release v1.0 mit
+  `talk_timer_momentum-mntm-012.fap` und `talk_timer_official-1.4.3.fap`,
+  Catalog-PR https://github.com/flipperdevices/flipper-application-catalog/pull/1241
+  (Commit 346a420, mit `bundle.py --nolint` validiert). Hinweis: bundle.py braucht eine
+  venv OHNE SCons (Python 3.11 der ufbt-Toolchain, `SSL_CERT_FILE` auf certifi setzen).
 - 2026-09-17: USB und Bluetooth mit Keynote am Mac vom Nutzer bestätigt. Feinschliff
   (ungenutzter Code entfernt, `ufbt format`), Profil-Auswahlmenü statt abgeschnittener
   Werte, Screenshots umgerechnet (512x256, Catalog-Palette), Build gegen offizielle
