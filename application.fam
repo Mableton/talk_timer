@@ -1,0 +1,16 @@
+# Manifest des Talk Timers (Praesentations-Klicker mit Redezeit-Timer)
+App(
+    appid="talk_timer",
+    name="Talk Timer",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="talk_timer_app",
+    stack_size=4 * 1024,
+    fap_category="Tools",
+    fap_version="1.0",
+    fap_icon="talk_timer.png",  # 10x10 1-Bit PNG
+    fap_icon_assets="images",  # Icons für den Hauptscreen
+    fap_libs=["ble_profile"],  # Bluetooth-HID-Profil
+    fap_description="Presentation clicker with discreet talk timer via USB or Bluetooth HID",
+    fap_weburl="https://github.com/Mableton/talk_timer",
+    fap_author="Manoah Ruiz Rodriguez",
+)
